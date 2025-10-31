@@ -48,7 +48,7 @@ jsx rules
 5. events : onclick -- html event
             onClick -- react event (synthetic events)
 
-props : 
+props :  data PASSING FROM PARENT TO CHILD
 
 
 object destructuring
@@ -66,8 +66,20 @@ console.log(name); // Gayathri
 console.log(age);  // 22
              
 
+day-3
 
+31/10/2025
 
+State : spacial memory inside comp that hold data which can change over time
+hooks: special fun:s used to state management ,life cycle metnods and  side effect
+useState : hook used to manage state.
+const [state, setState] = useState(0)
+events:action performed by user
+synthetic events : react wrap html events.
+
+task:
+1. increment not leads to 10 and decrement not leads to less than 0
+2. reset btn
 
 
 
