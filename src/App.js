@@ -3,7 +3,9 @@ import './App.css';
 import Counter from './components/Counter';
 import Greetings from './components/Greetings';
 import LogInForm from './components/LogInForm';
+import Show from './components/Show';
 import ShowMessage from './components/ShowMessage';
+import StudentsList from './components/StudentsList';
 
 function App() {
 const userName = "Manu"
@@ -15,6 +17,8 @@ const userName = "Manu"
    <Counter/>
    <ShowMessage/>
 <LogInForm/>
+<StudentsList/>
+<Show/>
    </div>
   );
 }

@@ -70,25 +70,45 @@ day-3
 
 31/10/2025
 
-State : spacial memory inside comp that hold data which can change over time
+State : special memory inside comp that hold data which can change over time
 hooks: special fun:s used to state management ,life cycle metnods and  side effect
 useState : hook used to manage state.
 const [state, setState] = useState(0)
 events:action performed by user
 synthetic events : react wrap html events.
 
-task:
+task: 1
 1. increment not leads to 10 and decrement not leads to less than 0
 2. reset btn
-
 
 day-4
 
 3/10/2025
 
-
-task : 
+task : 2
 Show each student’s name (from props) with a Present/Absent button.
 Use state to toggle and display the attendance status.
 
+
+day-5
+31/10/2025
+fragments: not create a new node in dom.
+listing in react  by map and key
+ternary opertor , boolean in state 
+tasks
+1. counter => reset()
+2. login button ,and islogin only show  homepage 
+      && and state
+<!-- 3. hide and show button 
+hide btn show btn-- show some message
+hide the messsage -->
+
+class task: 1. list some list of fruits in array(for of loop)
+            2. list of vagitable and price  object (for in loop )
+
+
+task:3
+3.Show and Hide Button
+a. Create a component with content that can be toggled visible or hidden.
+b. Use a button to show or hide the content dynamically.
 
