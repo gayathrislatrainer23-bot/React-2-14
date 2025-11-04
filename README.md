@@ -82,7 +82,13 @@ task:
 2. reset btn
 
 
+day-4
+
+3/10/2025
 
 
+task : 
+Show each student’s name (from props) with a Present/Absent button.
+Use state to toggle and display the attendance status.
 
 

@@ -22,7 +22,7 @@ const decrement = ()=>{
 }
 const reset =()=>{
     setCounter(0)
-}
+} 
     return(
         <div>
             <button onClick={()=>increment()}>+</button>
