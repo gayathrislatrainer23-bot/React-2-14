@@ -104,7 +104,7 @@ hide btn show btn-- show some message
 hide the messsage -->
 
 class task: 1. list some list of fruits in array(for of loop)
-            2. list of vagitable and price  object (for in loop )
+            2. list of vagitable and price  object (keys and values)
 
 
 task:3
@@ -112,3 +112,15 @@ task:3
 a. Create a component with content that can be toggled visible or hidden.
 b. Use a button to show or hide the content dynamically.
 
+day-6
+3/11/2025
+state
+
+
+day-7
+4/11/2025
+listing and key
+
+day-8
+4/11/2025
+listing and key object
