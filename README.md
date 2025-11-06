@@ -122,5 +122,60 @@ day-7
 listing and key
 
 day-8
-4/11/2025
+5/11/2025
 listing and key object
+
+day-9
+6/11/2025
+
+props task:
+
+1: Weather Info with Object Prop
+
+     Create a component that accepts a single object as a prop
+          (example: { city: "Chennai", temp: 30 }) and displays:
+     output:
+              Current temperature in Chennai is 30°C
+
+            WeatherInfo - parent comp
+            WeatherDisplay - child comp
+
+            props
+            Weather ={ city: "Chennai", temp: 30 }
+{weather}
+            weather.city
+            weather.temp
+
+            template literal:
+            <p>{`nbhksdg ${}`}</p>
+
+ 2: User Login Status with Conditional Prop
+
+        Pass a user object as a prop 
+         (example: { name: "Manu", isLoggedIn: true }).
+
+     output:
+
+"Welcome back!" if isLoggedIn is true, otherwise show "Please login".
+
+Login : parent
+LoginStatus : child
+{ name: "Manu", isLoggedIn: true } : props
+isLoggedIn ? "Welcome back!" : "Please login"
+
+3.Colors with Array Prop
+      Pass an array of colors as a prop (example: ["Red", "Blue", "Yellow"]).
+      Display them in one line like:
+      output:
+            Primary colors are: Red, Blue, Yellow
+
+  ColorsInfo - parent comp
+  ColorsDisplay - child comp
+colors = ["Red", "Blue", "Yellow"]
+
+task :
+ternary opertor  login and $$ operator
+1. weather app ==> temp : 30 hot else cold
+ <!-- 1. need input filed  -->
+ <!-- 2. temp enter (0-55) --> not needed
+ 3. temp bellow 30 cold + image  --> else hot  && 
