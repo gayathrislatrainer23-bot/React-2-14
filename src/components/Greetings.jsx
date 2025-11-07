@@ -7,6 +7,7 @@ console.log(userName)
         <div className="Greetings" style={{color:"red"}}>
    <h1>Good morning</h1>
    <p>{userName}</p>
+   <p>{`your name ${userName}`}</p>
         </div>
     )
 }
