@@ -7,6 +7,7 @@ import LogInForm from './components/LogInForm';
 import Show from './components/Show';
 import ShowMessage from './components/ShowMessage';
 import StudentsList from './components/StudentsList';
+import StudentTable from './components/StudentTable';
 import Vegetable from './components/Vegetable';
 
 function App() {
@@ -24,6 +25,7 @@ const userName = ["Manu"]
 <FruitList/>
 */}
 <Vegetable/> 
+<StudentTable/>
    </div>
   );
 }

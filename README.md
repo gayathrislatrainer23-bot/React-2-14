@@ -179,3 +179,26 @@ ternary opertor  login and $$ operator
  <!-- 1. need input filed  -->
  <!-- 2. temp enter (0-55) --> not needed
  3. temp bellow 30 cold + image  --> else hot  && 
+
+
+day-9
+6/11/2025
+
+
+Learn on monday
+1. select(drop down)
+2. form (onsubmit)
+3. js test
+
+class Task  list the bellow
+
+const student = {
+  name: "Rahul",
+  age: 17,
+  grade: "A",
+  hobbies: ["Reading", "Cycling", "Drawing"]
+};
+
+student?.hobbies.map((hobby)=>(
+
+))
