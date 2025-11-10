@@ -1,6 +1,7 @@
 
 import './App.css';
 import Counter from './components/Counter';
+import Form from './components/Form';
 import FruitList from './components/FruitList';
 import Greetings from './components/Greetings';
 import LogInForm from './components/LogInForm';
@@ -26,6 +27,7 @@ const userName = ["Manu"]
 */}
 <Vegetable/> 
 <StudentTable/>
+<Form/>
    </div>
   );
 }

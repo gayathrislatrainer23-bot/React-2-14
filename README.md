@@ -202,3 +202,30 @@ const student = {
 student?.hobbies.map((hobby)=>(
 
 ))
+
+day-10
+10/11/2025
+
+controlled com : comp controlled by react state;
+uncontrolled com : comp controlled by dom itself;
+
+TASK:
+2. Form Task
+ Create a Student Registration Form with the following inputs:
+Name (text input)
+
+
+Age (number input)
+
+
+Email (email input)
+
+
+Password (password input)
+
+
+Date of Birth (date input)
+
+
+ Use proper className for each input (e.g., "form-input", "form-label").
+  Display below the form:
