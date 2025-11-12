@@ -229,3 +229,49 @@ Date of Birth (date input)
 
  Use proper className for each input (e.g., "form-input", "form-label").
   Display below the form:
+
+  day-11
+11/11/2025
+
+useEffect  is a hook handle side effect
+
+syntax
+
+ useEffect(
+  ()={
+    <!-- side code -->
+  }
+ )
+
+ 1.  run after all renders
+
+ useEffect(
+  ()={
+    <!-- side code -->
+  }
+ )
+ 2. run only inital render
+ useEffect(
+  ()={
+    <!-- side code -->
+  }
+  ,[]
+ )
+
+[] --> dependancy 
+ 2. run when state /props change in dependancy array inital render 
+name,email,age
+useEffect(
+  ()={
+    <!-- side code -->
+  }
+  ,[name,age]
+ )
+
+ task : 
+
+ useEffect:
+ loginForm: Islogin === true ; <AdminDashboard>
+
+ initaialy: useEffect(callback,[])
+ callback: 

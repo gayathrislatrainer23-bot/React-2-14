@@ -13,7 +13,7 @@ const Form =() =>{
             <label>Name</label>
             <input type="text" placeholder="Enter yoor name" value ={name}
              onChange={(e)=>{setName(e.target.value)}} />
-            <button>Submit</button>
+            <button type="submit">Submit</button>
         </form>
 
         </>
