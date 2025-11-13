@@ -11,6 +11,9 @@ import SideEffect from './components/SideEffect';
 import StudentsList from './components/StudentsList';
 import StudentTable from './components/StudentTable';
 import Vegetable from './components/Vegetable';
+import {BrowserRouter,Routes, Route, Link } from "react-router-dom"
+import Home from './pages/Home';
+import About from './pages/About';
 
 function App() {
 const userName = ["Manu"]
@@ -29,7 +32,17 @@ const userName = ["Manu"]
 {/* <Vegetable/>  */}
 {/* <StudentTable/>
 <Form/> */}
-<SideEffect/>
+{/* <SideEffect/> */}
+<BrowserRouter>
+<nav>
+  <Link to={"/home"}>Home</Link>
+  <Link to={"/about"}>About</Link>
+</nav>
+<Routes>
+  <Route path='/home' element ={<Home/>} />
+  <Route path='/about' element ={<About/>} />
+</Routes>
+</BrowserRouter>
    </div>
   );
 }

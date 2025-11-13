@@ -231,7 +231,7 @@ Date of Birth (date input)
   Display below the form:
 
   day-11
-11/11/2025
+12/11/2025
 
 useEffect  is a hook handle side effect
 
@@ -275,3 +275,27 @@ useEffect(
 
  initaialy: useEffect(callback,[])
  callback: 
+
+  task :
+ 
+Full name = state ==> string
+user => first and last name inputs
+first --> state
+last --> state
+useeffect(()=>{
+  setFullName(`${first} ${last}`)
+},[first,last])
+2 inputs
+
+  day-12
+13/11/2025
+
+BrowserRoutes
+     Routes
+        Route
+     Routes
+BrowserRoutes
+
+
+<!-- import trialImg from "./assets/trial-img.avif";
+    <img src={trialImg} alt="Trial" width="200" /> -->
