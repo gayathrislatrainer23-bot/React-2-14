@@ -14,10 +14,12 @@ import Vegetable from './components/Vegetable';
 import {BrowserRouter,Routes, Route, Link } from "react-router-dom"
 import Home from './pages/Home';
 import About from './pages/About';
+import Login from './pages/Login';
+import Profile from './pages/Profile';
 
 function App() {
-const userName = ["Manu"]
-
+// const userName = ["Manu"]
+const username = 'Manu'
   return (
     <div className="App">
     {/* <h1>{userName}</h1>   */}
@@ -37,10 +39,14 @@ const userName = ["Manu"]
 <nav>
   <Link to={"/home"}>Home</Link>
   <Link to={"/about"}>About</Link>
+  <Link to={"/login"}>Login</Link>
+  <Link to={`/profile/${username}`}>profile</Link>
 </nav>
 <Routes>
   <Route path='/home' element ={<Home/>} />
   <Route path='/about' element ={<About/>} />
+  <Route path='/login' element ={<Login/>} />
+  <Route path='/profile/:username' element ={<Profile/>} />
 </Routes>
 </BrowserRouter>
    </div>

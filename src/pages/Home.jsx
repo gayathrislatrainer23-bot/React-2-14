@@ -1,5 +1,5 @@
 import Show from "../components/Show";
-//  import trialImg from ""
+ import trialImg from "../assets/trial-img.avif"
 const Home = ()=>{
 
 
@@ -7,6 +7,7 @@ const Home = ()=>{
         <>
         <h1>home page</h1>
         <img src="/trial-img.avif"/>
+        <img src={trialImg}/>
         <Show/>
         </>
     )
