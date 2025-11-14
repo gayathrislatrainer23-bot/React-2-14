@@ -299,3 +299,14 @@ BrowserRoutes
 
 <!-- import trialImg from "./assets/trial-img.avif";
     <img src={trialImg} alt="Trial" width="200" /> -->
+
+    task:
+Routing: 4 pages
+        login
+        profile ---> img 
+        home
+        about
+
+        useNavigate
+        useParam
+ 
