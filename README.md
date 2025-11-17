@@ -309,4 +309,15 @@ Routing: 4 pages
 
         useNavigate
         useParam
+
+17/11/2025
+
+todo list
+1. todo input filed + button
+2. show list
+3. update 
+4. delete 
+5. date add.
+
+routing      
  
