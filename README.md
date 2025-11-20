@@ -354,3 +354,15 @@ PRODUCT = [
 
 ]
  CART --> []
+
+ 19/11/2025
+ TASK:
+ Dropdown Country & City Selector
+a. Create two dropdowns: one for countries and one for cities.
+b. The city dropdown should update dynamically based on the selected
+    country.
+
+10.Conditional Greeting App
+a. Build an app that displays different greetings based on certain conditions.
+b. For example, show “Good Morning” if the current time is morning, “Good
+Evening” if evening, or greet based on user input like age or gender.
