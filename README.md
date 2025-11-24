@@ -366,3 +366,10 @@ b. The city dropdown should update dynamically based on the selected
 a. Build an app that displays different greetings based on certain conditions.
 b. For example, show “Good Morning” if the current time is morning, “Good
 Evening” if evening, or greet based on user input like age or gender.
+
+
+24/11/2025
+https://redux.js.org/tutorials/quick-start
+
+npm install @reduxjs/toolkit react-redux
+

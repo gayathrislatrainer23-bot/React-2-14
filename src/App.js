@@ -16,6 +16,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Login from './pages/Login';
 import Profile from './pages/Profile';
+import ReduxCounter from './components/ReduxCounter';
 
 function App() {
 // const userName = ["Manu"]
@@ -46,6 +47,7 @@ const username = 'Manu'
   <Route path='/home' element ={<Home/>} />
   <Route path='/about' element ={<About/>} />
   <Route path='/login' element ={<Login/>} />
+  <Route path='/counter' element ={<ReduxCounter/>} />
   <Route path='/profile/:username' element ={<Profile/>} />
 </Routes>
 </BrowserRouter>
