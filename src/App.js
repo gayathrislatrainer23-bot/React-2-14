@@ -14,9 +14,12 @@ import Vegetable from './components/Vegetable';
 import {BrowserRouter,Routes, Route, Link } from "react-router-dom"
 import Home from './pages/Home';
 import About from './pages/About';
-import Login from './pages/Login';
+// import Login from './pages/Login';
+import Login from './components/Login';
 import Profile from './pages/Profile';
 import ReduxCounter from './components/ReduxCounter';
+import ReducerCounter from './components/ReducerCounter';
+import MessageBox from './components/MessageBox';
 
 function App() {
 // const userName = ["Manu"]
@@ -46,8 +49,11 @@ const username = 'Manu'
 <Routes>
   <Route path='/home' element ={<Home/>} />
   <Route path='/about' element ={<About/>} />
-  <Route path='/login' element ={<Login/>} />
+  {/* <Route path='/login' element ={<Login/>} /> */}
   <Route path='/counter' element ={<ReduxCounter/>} />
+  <Route path='/reducerCounter' element ={<ReducerCounter/>} />
+  <Route path='/message' element ={<MessageBox/>} />
+  <Route path='/axiosLogin' element ={<Login/>} />
   <Route path='/profile/:username' element ={<Profile/>} />
 </Routes>
 </BrowserRouter>

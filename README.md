@@ -373,3 +373,10 @@ https://redux.js.org/tutorials/quick-start
 
 npm install @reduxjs/toolkit react-redux
 
+
+26/11/2025
+axios
+
+27/11/2025
+5️ Contact Form – Name, Email, Message + Reset button.
+ Show “Form submitted successfully” after submit
